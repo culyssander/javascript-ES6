@@ -52,7 +52,7 @@ const doOtherThingPromise = new Promise((resolve, reject) => {
 Promise.all([doSomethingPromise, doOtherThingPromise])
 .then(data => console.log(data[0].split(''), data[1].split('')));
 
-// Promise.resolve([doSomethingPromise, doOtherThingPromise])
+// Promise.race([doSomethingPromise, doOtherThingPromise])
 // .then(data => console.log(data))
 // .catch(err => console.log(err));
 

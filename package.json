@@ -1,0 +1,26 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Symbols.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/culyssander/javascript-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/culyssander/javascript-ES6/issues"
+  },
+  "homepage": "https://github.com/culyssander/javascript-ES6#readme"
+}
