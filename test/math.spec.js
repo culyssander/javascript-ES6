@@ -3,7 +3,7 @@ const Math = require('../Math.js')
 
 describe('Math class', function() {
 
-    // you can use it.only();
+    // you can use it.only(); Or you can use skip
 
     it('Sum twu number', function(done) {
         const math = new Math();
